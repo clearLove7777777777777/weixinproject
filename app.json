@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/photo/photo",
+    "pages/photoview/photoview",
+    "pages/info/info",
+    "pages/infoview/infoview",
+    "pages/about/about",
+    "pages/message/message",
+    "pages/contact/contact"
+  ],
+  "window": {
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "多肉频道",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/foot_b1.png",
+        "selectedIconPath": "image/foot_b1_hl.png",
+        "text": "1111"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "image/foot_b2.png",
+        "selectedIconPath": "image/foot_b2_hl.png",
+        "text": "222"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "image/foot_b3.png",
+        "selectedIconPath": "image/foot_b3_hl.png",
+        "text": "333"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "iconPath": "image/foot_b4.png",
+        "selectedIconPath": "image/foot_b4_hl.png",
+        "text": "444"
+      }
+    ]
+  }
+}
